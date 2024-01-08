@@ -1,0 +1,118 @@
+.header {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: var(--container-fluid);
+  background-color: var(--dark-grey-color);
+  width: 100%;
+  /*position: absolute;*/
+  z-index: 9000;
+
+  }
+  @media (max-width: 768px) {
+    .header {
+      position: relative;
+      background-color: transparent;
+    }
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 var(--container-offset);
+    max-width: var(--container-middle);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[12];
+    grid-template-columns: repeat(12, 1fr);
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 0;
+    }
+  }
+  .left {
+    -ms-grid-column-span: 6;
+    grid-column: 6 span;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1px 0;
+  }
+  @media (max-width: 1024px) {
+    .left {
+      -ms-grid-column-span: 8;
+      grid-column: 8 span;
+    }
+  }
+  @media (max-width: 768px) {
+    .left {
+      display: none;
+    }
+  }
+  .right {
+    -ms-grid-column-span: 6;
+    grid-column: 6 span;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-left: 20px;
+  }
+  @media (max-width: 1024px) {
+    .right {
+      -ms-grid-column-span: 4;
+      grid-column: 4 span;
+    }
+  }
+  @media (max-width: 576px) {
+    .right {
+      -ms-grid-column-span: 2;
+      grid-column: 2 span;
+    }
+  }
+  .logo img {
+    width: 60%;
+  }
+  @media (max-width: 1024px) {
+    .nav {
+      position: fixed;
+      left: 0;
+      top: 0;
+      margin-left: 0;
+      z-index: 1000;
+      overflow-y: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 50px;
+      width: 100%;
+      height: 100vh;
+      opacity: 0.9;
+      background-color: var(--dark-violet-color);
+      -webkit-transform: translateX(-104%);
+      -ms-transform: translateX(-104%);
+      transform: translateX(-104%);
+      -webkit-transition: -webkit-transform 0.3s ease-out;
+      transition: -webkit-transform 0.3s ease-out;
+      transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    }
+  }
+  .nav--active {
+    margin-left: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
