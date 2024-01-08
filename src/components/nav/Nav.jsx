@@ -23,7 +23,7 @@ const Nav = () => {
           </NavLink>
         </li>
         <li className={classes.item}>
-          <NavLink to="/services" className={classes.link}>
+          <NavLink to="/categories" className={classes.link}>
             Услуги
           </NavLink>
         </li>

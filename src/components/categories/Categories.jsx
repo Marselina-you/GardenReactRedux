@@ -6,7 +6,7 @@ import Category from './category/Category';
 
 const Categories = (props) => {
 //debugger;
-    let CategoryItem =  props.categoriesProps.categories.map( i => (<Category key={i.id} img={i.img} title={i.title}/>))
+    let CategoryItem =  props.categoriesProps.categories.map( i => (<Category key={i.id} img={i.img} title={i.title} style={i.style}/>))
     //props.categoriesProps
     //console.log(CategoryItem)
     

@@ -36,3 +36,138 @@
     transform: rotate(360deg);
   }
 }
+.item1 .title {
+  border-radius: 0 15px 15px 0;
+  background-color: #ED8187;
+}
+.item1 .content {
+  top: 60%;
+}
+.item2 .title {
+  border-radius: 0 15px 15px 0;
+  background-color: #56B8A6;
+}
+.item2 .content {
+  top: 60%;
+}
+.item3 .title {
+  border-radius: 15px 0 0 15px;
+  background-color: #9E4396;
+}
+.item3 .content {
+  top: 10%;
+  right: 0;
+}
+.item4 .title {
+  border-radius: 15px 15px 0 0;
+  background-color: #89B96A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.item4 .title span {
+  padding-left: 0;
+}
+.item4 .content {
+  bottom: 5px;
+  left: 15%;
+}
+@media (max-width: 576px) {
+  .item4 .content {
+    left: 0;
+  }
+}
+.item5 .title {
+  border-radius: 0 15px 15px 0;
+  background-color: #89B96A;
+}
+.item5 .content {
+  top: 60%;
+}
+.item6 .title {
+  border-radius: 0 15px 15px 0;
+  background-color: #B48B46;
+}
+.item6 .content {
+  top: 60%;
+}
+.item7 .title {
+  border-radius: 15px 0 0 15px;
+  background-color: #776E66;
+}
+.item7 .title span {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.item7 .content {
+  right: 0;
+  top: 60%;
+}
+.item8 .title {
+  border-radius: 15px 15px 0 0;
+  background-color: var(--dark-violet-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.item8 .title span {
+  padding-left: 0;
+}
+.item8 .content {
+  bottom: 5px;
+  left: 15%;
+}
+@media (max-width: 576px) {
+  .item8 .content {
+    left: 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  .item1:hover {
+    background-color: #ED8187;
+  }
+}
+@media (min-width: 1025px) {
+  .item2:hover {
+    background-color: #56B8A6;
+  }
+}
+@media (min-width: 1025px) {
+  .item3:hover {
+    background-color: #9E4396;
+  }
+}
+@media (min-width: 1025px) {
+  .item4:hover {
+    background-color: #89B96A;
+  }
+}
+@media (min-width: 1025px) {
+  .item5:hover {
+    background-color: #89B96A;
+  }
+}
+@media (min-width: 1025px) {
+  .item6:hover {
+    background-color: #B48B46;
+  }
+}
+@media (min-width: 1025px) {
+  .item7:hover {
+    background-color: #776E66;
+  }
+}
+@media (min-width: 1025px) {
+  .item8:hover {
+    background-color: var(--dark-violet-color);
+  }
+}
+
+
