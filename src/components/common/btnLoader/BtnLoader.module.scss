@@ -1,0 +1,49 @@
+.btn {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 12px 24px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+}
+.violet {
+  border: 1px solid var(--violet-color);
+  background-color: var(--violet-color);
+  color: var(--light-color);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-size: 28px;
+  font-weight: 400;
+}
+.violet:focus {
+  border: 1px solid var(--violet-color);
+  background-color: var(--violet-color);
+  color: var(--light-color);
+}
+@media (min-width: 1025px) {
+  .violet:hover {
+    border: 1px solid var(--violet-color);
+    background-color: inherit;
+    color: var(--violet-color);
+  }
+}
+.violet:active {
+  border: 1px solid var(--violet-color);
+  background-color: var(--light-color);
+  color: var(--orange-color);
+}
+@media (max-width: 1024px) {
+  .violet {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1024px) {
+  .violet {
+    font-size: 20px;
+  }
+}

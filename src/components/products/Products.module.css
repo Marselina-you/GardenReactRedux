@@ -1,5 +1,21 @@
+.block {
+  margin-top: 150px;
+  background-color: inherit;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: var(--container-middle);
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[12];

@@ -1,0 +1,22 @@
+
+  .select {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--dark-grey-color);
+    background: inherit;
+    padding-left: 5px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--dark-grey-color);
+  }
+  .select:focus-visible {
+    outline: none;
+    
+  }
+  .btn {
+    position: absolute;
+    z-index: 8000;
+    top: 15px;
+    right: 15px;
+  }

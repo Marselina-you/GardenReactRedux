@@ -1,7 +1,7 @@
 import React from 'react';
 import slide from "../../images/slide-3.jpg";
-import BtnView from '../btnView/BtnView';
-import s from './Contacts.module.css'
+import BtnView from '../common/btnView/BtnView';
+import s from './Contacts.module.css';
 
 const Contacts = () => {
     return (

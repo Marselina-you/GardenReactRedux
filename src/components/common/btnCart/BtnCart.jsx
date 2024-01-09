@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './BtnCart.css'
+import s from './BtnCart.module.css'
 
 
 const BtnCart = (props) => {
