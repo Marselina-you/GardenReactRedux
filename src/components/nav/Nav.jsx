@@ -5,31 +5,41 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className={classes.nav}>
       <ul className={classes.list}>
         <li className={classes.item}>
           <NavLink to="/products" className={classes.link}>
-            Главная
+            О нас
           </NavLink>
         </li>
         <li className={classes.item}>
           <NavLink to="/products" className={classes.link}>
-            Каталог
-          </NavLink>
-        </li>
-        <li className={classes.item}>
-          <NavLink to="/contacts" className={classes.link}>
-            Контакты
-          </NavLink>
-        </li>
-        <li className={classes.item}>
-          <NavLink to="/categories" className={classes.link}>
             Услуги
           </NavLink>
         </li>
         <li className={classes.item}>
+          <NavLink to="/contacts" className={classes.link}>
+            Бонусы
+          </NavLink>
+        </li>
+        <li className={classes.item}>
+          <NavLink to="/categories" className={classes.link}>
+            Доставка
+          </NavLink>
+        </li>
+        <li className={classes.item}>
           <NavLink to="/cart" className={classes.link}>
-            Корзина
+           Отзывы
+          </NavLink>
+        </li>
+        <li className={classes.item}>
+          <NavLink to="/cart" className={classes.link}>
+          Контакты
+          </NavLink>
+        </li>
+        <li className={classes.item}>
+          <NavLink to="/cart" className={classes.link}>
+         Блог
           </NavLink>
         </li>
       </ul>

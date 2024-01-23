@@ -1,0 +1,44 @@
+.logo img {
+    width: 50%;
+  }
+.logo div{
+  font-weight: bold;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+} 
+.list {
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item span{
+  font-size: 16px;
+  color: var(--grey-text-color);
+}
+.info {
+  display: flex;
+  font-weight: bold;
+  color: var(--dark-color);
+  position: relative;
+  
+
+  &::before{
+    content: '';
+    display: block;
+    min-width: 15px;
+    min-height: 15px;
+    position: relative;
+    padding-right: 5px;
+    
+   
+    border-radius: 100%;
+    background-color: #3960FF;
+    
+}
+}

@@ -1,9 +1,14 @@
 .header {
+
   margin: 0 auto;
   padding: 0 var(--container-offset);
   max-width: var(--container-fluid);
-  background-color: var(--dark-grey-color);
+  background: linear-gradient(to right,#0095da 0,#7ad554 200%);
   width: 100%;
+  height: auto;
+  padding: 6px 0;
+  
+ 
   /*position: absolute;*/
   z-index: 9000;
 
@@ -17,11 +22,8 @@
   .container {
     margin: 0 auto;
     padding: 0 var(--container-offset);
-    max-width: var(--container-middle);
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[12];
-    grid-template-columns: repeat(12, 1fr);
+    max-width: var(--container-width);
+   
   }
   @media (max-width: 768px) {
     .container {
@@ -76,9 +78,7 @@
       grid-column: 2 span;
     }
   }
-  .logo img {
-    width: 60%;
-  }
+
   @media (max-width: 1024px) {
     .nav {
       position: fixed;

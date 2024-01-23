@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
   --font-family: "Poppins", sans-serif;
-  --content-width: 1170px;
+  --content-width: 1270px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
   --content-middle: 1596px;
@@ -17,6 +17,7 @@
   --orange-color: #E78F3D;
   --blue-color: #3960FF;
   --grey-color: #D9DCE8;
+  --grey-text-color: #848282;
   --dark-grey-color: rgba(91, 87, 62, .7);
   --main-offset: 40px;
   --second-offset: 20px;
@@ -61,6 +62,7 @@
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  color: var(--dark-color);
 }
 
 *,
@@ -74,6 +76,7 @@ html {
   height: 100%;
   font-family: var(--font-family, sans-serif);
   -webkit-text-size-adjust: 100%;
+ 
 }
 
 .page__body {

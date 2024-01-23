@@ -13,7 +13,7 @@ const Products = (props) => {
   let product =  props.productsProps.products.map( i => (<Product key={i.id} name={i.name} price={i.price} />))
     return (
         <section className={s.block}>
-        <div className={s.container}>
+        <div className='container'>
         <div class="shop__top">
     <Crumbs />
        
