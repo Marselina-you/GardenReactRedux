@@ -1,11 +1,14 @@
 import React from 'react';
+import { CommentType } from '../../types/types';
 import Feedback from './feedback/Feedback';
 import classes from './Feedbacks.module.css'
 
 
-
-const Feedbacks = (props) => {
-  let FeedbackItem =  props.feedbacksProps.comments.map( i => (<Feedback key={i.id} time={i.time} content={i.content} name={i.name} />))
+type PropsType = {
+  comments: Array<CommentType>
+}
+const Feedbacks: React.FC<PropsType> = ({comments}) => {
+  let FeedbackItem =  comments.map( i => (<Feedback key={i.id} time={i.time} content={i.content} name={i.name} />))
     return (
         <section className={classes.feedback}>
            

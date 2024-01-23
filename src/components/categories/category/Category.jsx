@@ -9,7 +9,7 @@ import s from './Category.module.css';
 
 const Category = (props) => {
     let style = props.style
-    console.log(style)
+   
     return (
         <li className={`${s.item} ${s.item1}`}>
         <a href="#" className={s.link}>

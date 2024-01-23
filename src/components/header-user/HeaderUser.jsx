@@ -10,6 +10,11 @@ const HeaderUser = () => {
            
 <ul className={s.list}>
 <li className={s.logo}>
+{/* <svg className={s.icon}>
+                        <use
+                          xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#logo-min`}
+                        />
+                      </svg> */}
 <img src={LOGO} alt="logo" />
          <div>Доставка цветов Кемерово</div>
        </li>

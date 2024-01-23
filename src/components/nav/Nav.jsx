@@ -28,7 +28,7 @@ const Nav = () => {
           </NavLink>
         </li>
         <li className={classes.item}>
-          <NavLink to="/cart" className={classes.link}>
+          <NavLink to="/comments" className={classes.link}>
            Отзывы
           </NavLink>
         </li>

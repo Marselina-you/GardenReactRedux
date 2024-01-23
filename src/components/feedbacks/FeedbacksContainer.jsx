@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-import { actionCreatorClick } from '../../redux/categoriesReducer';
+import { actionCreatorClick } from '../../redux/categoriesReducer.ts';
 import { connect } from "react-redux";
-import Feedbacks from './Feedbacks';
+import Feedbacks from './Feedbacks.tsx';
 
 let mapStateToProps = (state) => {
   
   return {
-      feedbacksProps: state.commentsBlock,
+      comments: state.commentsBlock.comments,
       
   }
 }

@@ -1,14 +1,16 @@
 import React from 'react';
+import { CategoryType } from '../../types/types';
 import s from './Categories.module.css'
 import Category from './category/Category';
 //import Category from './category/category';
 
-
-const Categories = (props) => {
+type PropsType = {
+    categories: Array<CategoryType>
+}
+const Categories: React.FC<PropsType> = ({categories}) => {
 //debugger;
-    let CategoryItem =  props.categoriesProps.categories.map( i => (<Category key={i.id} img={i.img} title={i.title} style={i.style}/>))
-    //props.categoriesProps
-    //console.log(CategoryItem)
+    let CategoryItem =  categories.map( i => (<Category key={i.id} img={i.img} title={i.title} style={i.style}/>))
+   
     
     return (
         <section className={s.categories}>

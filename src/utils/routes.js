@@ -3,5 +3,6 @@ export const ROUTES = {
     CART: "/cart",
     CATALOG: "/products", 
     CONTACTS: "/contacts",
-    CATEGORIES: "/categories"
+    CATEGORIES: "/categories",
+    COMMENTS: "/comments"
 }
