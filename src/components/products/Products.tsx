@@ -4,15 +4,18 @@ import BtnLoader from '../common/btnLoader/BtnLoader';
 import Crumbs from '../crumbs/Crumbs';
 import Filter from '../filter/Filter';
 import Pagination from '../pagination/Pagination';
-import Product from './product/Product';
+import Product from './product/Product.tsx';
 import s from './Products.module.css'
 
 type PropsType = {
   products: Array<ProductType>
+  like: (productId: number) => void
+  unlike: (productId: number) => void
+
 }
-const Products: React.FC<PropsType> = (props) => {
+const Products: React.FC<PropsType> = ({products, like, unlike, ...props}) => {
  // debugger;
-  let product =  props.products.map( i => (<Product key={i.id} name={i.name} price={i.price} />))
+  let product =  products.map( i => (<Product key={i.id} productId={i.id} name={i.name} price={i.price} like={like} unlike={unlike}/>))
     return (
         <section className={s.block}>
         <div className='container'>

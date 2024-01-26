@@ -12,7 +12,7 @@ let rootReducer = combineReducers({
 })
 type RootState = typeof rootReducer
 export type AppStateType = ReturnType<RootState>
-
+export type InferActionsTypes<T> = T extends { [keys: string]: (...args: any[]) => infer U } ? U : never
 const store = legacy_createStore(rootReducer)
 
 

@@ -11,6 +11,7 @@ export type ProductType = {
     price: number
     img: string
     category: number
+    liked: boolean
 }
 export type CommentType = {
     id: number

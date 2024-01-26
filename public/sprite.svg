@@ -9,18 +9,18 @@
       </clipPath>
     </defs>
   </symbol>
-  <symbol width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="eye">
+  <symbol viewBox="0 0 26 20"  xmlns="http://www.w3.org/2000/svg" id="eye">
      <svg >
 <g clipPath="url(#clip0_1267_196)">
 <path fillRule="evenodd" clipRule="evenodd" d="M16.9518 10.0664C16.9518 12.2489 15.1818 14.0176 12.9993 14.0176C10.8168 14.0176 9.0481 12.2489 9.0481 10.0664C9.0481 7.88264 10.8168 6.11389 12.9993 6.11389C15.1818 6.11389 16.9518 7.88264 16.9518 10.0664Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 <path fillRule="evenodd" clipRule="evenodd" d="M12.9975 19.1936C17.7575 19.1936 22.1113 15.7711 24.5625 10.0661C22.1113 4.3611 17.7575 0.938599 12.9975 0.938599H13.0025C8.2425 0.938599 3.88875 4.3611 1.4375 10.0661C3.88875 15.7711 8.2425 19.1936 13.0025 19.1936H12.9975Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-</g><defs><clipPath id="clip0_1267_196"><rect width="26" height="20" fill="white"/></clipPath>
+</g><defs><clipPath id="clip0_1267_196"><rect width="26" height="20"/></clipPath>
 </defs>
 </svg>
   </symbol>
-  <symbol width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg" id="like">
+  <symbol viewBox="0 0 26 28"  xmlns="http://www.w3.org/2000/svg" id="like">
     <svg>
-<path d="M18.5555 3.26091C21.6308 3.26091 24.1211 5.94223 24.1211 9.24755C24.1211 15.2342 18.5555 18.6429 12.997 24.6296C7.43793 18.6429 1.87891 15.2342 1.87891 9.2476C1.87891 5.94229 4.36922 3.26096 7.43793 3.26096C10.2172 3.26096 11.6071 4.75776 12.997 7.7508C14.3863 4.75776 15.7762 3.26091 18.5555 3.26091Z" fill="#FF7979"/>
+<path d="M18.5555 3.26091C21.6308 3.26091 24.1211 5.94223 24.1211 9.24755C24.1211 15.2342 18.5555 18.6429 12.997 24.6296C7.43793 18.6429 1.87891 15.2342 1.87891 9.2476C1.87891 5.94229 4.36922 3.26096 7.43793 3.26096C10.2172 3.26096 11.6071 4.75776 12.997 7.7508C14.3863 4.75776 15.7762 3.26091 18.5555 3.26091Z" />
 </svg>
   </symbol>
    

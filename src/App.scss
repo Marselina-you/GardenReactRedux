@@ -2052,3 +2052,47 @@ a {
   }
 }
 /*# sourceMappingURL=main.css.map */
+.btnEllipce {
+  border-radius: 100%;
+  border: 1px solid var(--blue-color);
+  padding: 5px 4px 1px 4px;
+  background-color: var(--blue-color);
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+.btnEllipce:not(:last-child) {
+  margin-right: 10px;
+}
+.btnEllipce:focus {
+  background-color: var(--light-color);
+}
+
+.btnEllipce:focus svg {
+  fill: var(--blue-color);
+}
+.btnEllipce svg {
+  fill: var(--light-color);
+  width: 25px;
+  height: 25px;
+  -webkit-transition: fill 0.4s ease-in-out;
+  transition: fill 0.4s ease-in-out;
+}
+.btnEllipce svg:hover {
+  fill: red;
+ 
+}
+@media (min-width: 1025px) {
+  .btnEllipce svg:hover {
+    //fill: var(--blue-color);
+  }
+}
+@media (min-width: 1025px) {
+  .btnEllipce:hover {
+    background-color: var(--light-color);
+  }
+}
+.btnEllipce:active {
+  border: 1px solid var(--orange-color);
+  background-color: var(--orange-color);
+}

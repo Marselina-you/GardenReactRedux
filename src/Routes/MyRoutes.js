@@ -4,7 +4,7 @@ import Cart from '../components/cart/Cart';
 import CategoriesContainer from '../components/categories/CategoriesContainer';
 import Contacts from '../components/contacts/Contacts';
 import FeedbacksContainer from '../components/feedbacks/FeedbacksContainer';
-import ProductsContainer from '../components/products/ProductsContainer';
+import ProductsContainer from '../components/products/ProductsContainer.tsx';
 import { ROUTES } from '../utils/routes';
 
 

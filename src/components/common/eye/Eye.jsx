@@ -1,11 +1,11 @@
 import React from 'react';
-import s from './Eye.module.css'
+
 
 
 const Eye = () => {
     return (
-        <button className={s.btn}>
-       <svg className={s.icon}>
+        <button className='btnEllipce'>
+       <svg>
                         <use
                           xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#eye`}
                         />

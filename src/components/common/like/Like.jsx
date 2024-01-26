@@ -1,11 +1,9 @@
 import React from 'react';
-import s from '../eye/Eye.module.css'
 
-
-const Like = () => {
+const Like = (props) => {
     return (
-        <button className={s.btn}>
-                <svg className={s.icon}>
+        <button className='btnEllipce' onClick={props.propsOnClick}>
+                <svg>
                         <use
                           xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#like`}
                         />
@@ -13,7 +11,4 @@ const Like = () => {
                 </button>
     );
 };
-
-
-
 export default Like;
