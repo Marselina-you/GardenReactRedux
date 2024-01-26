@@ -2052,3 +2052,52 @@ a {
   }
 }
 /*# sourceMappingURL=main.css.map */
+.btnSign {
+  border-radius: 100%;
+  border: 1px solid var(--blue-color);
+  padding: 5px 4px 1px 4px;
+  background-color: var(--blue-color);
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.btnSign:not(:last-child) {
+  margin-right: 10px;
+}
+.btnSign:focus {
+  background-color: var(--light-color);
+}
+.btnSign:focus svg {
+  fill: var(--blue-color);
+}
+.btnSign svg {
+  fill: var(--light-color);
+  width: 20px;
+  height: 20px;
+  -webkit-transition: fill 0.4s ease-in-out;
+  transition: fill 0.4s ease-in-out;
+}
+@media (min-width: 1025px) {
+  .btnSign svg:hover {
+    fill: var(--blue-color);
+  }
+}
+@media (min-width: 1025px) {
+  .btnSign:hover {
+    background-color: var(--light-color);
+  }
+}
+.btnSign:active {
+  border: 1px solid var(--orange-color);
+  background-color: var(--orange-color);
+}
+.btnSignActive svg{
+  fill: red
+
+}
+@media (min-width: 1025px) {
+  .btnSignActive svg:hover {
+    fill: red
+  }
+}

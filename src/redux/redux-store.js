@@ -8,7 +8,8 @@ const store = configureStore({
         categoriesBlock: categoriesReducer,
         commentsBlock: feedReducer,
         productsPage: productsReducer
-    }
+    },
+    devTools: true
 })
 
 
